@@ -1,16 +1,22 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-D6EDFKMY6P"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-D6EDFKMY6P');
+  </script>  
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-
   <title>Dentro do Código </title>
   <meta content="" name="Dentro do Código - Consultoria em Tecnologia da Informação">
   <meta content="" name="keywords">
-
-  <link href="{{ asset('frontpage/assets/img/favicon.png') }}" rel="icon">
-  <link href="{{ asset('frontpage/assets/img/apple-touch-icon.png') }}" rel="apple-touch-icon">
-
+  <link href="{{ asset('frontpage/assets/img/icone.png') }}" rel="icon">
+  <link href="{{ asset('frontpage/assets/img/icone.png') }}" rel="apple-touch-icon">
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
 
   <link href="{{ asset('frontpage/assets/vendor/animate.css/animate.min.css') }}" rel="stylesheet">
@@ -28,7 +34,6 @@
 
 <body>
   @include('partials.menu')
-
 
   <main id="main">
   @yield('conteudo')

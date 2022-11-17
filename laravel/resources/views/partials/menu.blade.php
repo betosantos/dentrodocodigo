@@ -27,7 +27,7 @@
             </li>
           </ul>
         </li> -->
-        <li><a href="#">Serviços</a></li>
+        <li><a href="{{ route('servicos') }}">Serviços</a></li>
         <li><a href="{{ route('blog') }}">Blog</a></li>
         <li><a href="#">Contato</a></li>
         <li><a href="{{ route('login') }}">Login</a></li>

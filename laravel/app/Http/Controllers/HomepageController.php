@@ -10,10 +10,17 @@ class HomepageController extends Controller
     {
       return view('frontpage.index');
     }
+    
 
     public function blog()
     {
      return view('frontpage.blog');
+    }
+
+
+    public function servicos()
+    {
+     return view('frontpage.servicos');
     }
 
 }

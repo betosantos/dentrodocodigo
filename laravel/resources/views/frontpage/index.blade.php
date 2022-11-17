@@ -22,7 +22,7 @@
         <ul>
           <li><i class="ri-check-double-line"></i> Visão Estratégica </li>
           <li><i class="ri-check-double-line"></i> Produtividade </li>
-          <li><i class="ri-check-double-line"></i> Integração e Controle</li>
+          <li><i class="ri-check-double-line"></i> Controle e Integração</li>
           <li><i class="ri-check-double-line"></i> Segurança </li>
           <li><i class="ri-check-double-line"></i> Produtividade e Eficiência </li>
         </ul>
@@ -78,21 +78,21 @@
         <div class="icon-box">
           <i class="bi bi-card-checklist"></i>
           <h4><a href="#">Desenvolvimento</a></h4>
-          <p>Desenvolvimento de sistemas Web, sites pessoais e corporativos e portal de conteúdo dinâmico atraves de login de acesso e banco de dados.</p>
+          <p>Desenvolvimento de sistemas Web, sites pessoais e corporativos e portal de conteúdo dinâmico atraves de login e senha de acesso com banco de dados.</p>
         </div>
       </div>
       <div class="col-md-6 mt-4 mt-md-0">
         <div class="icon-box">
           <i class="bi bi-bar-chart"></i>
-          <h4><a href="#">Gestão </a></h4>
-          <p>Administração de recursos e ambiente tecnolóogico, disponibilidade e alta-performance do seu ambinete de Tecnologia da Informação.</p>
+          <h4><a href="#">Gerenciamento e Gestão</a></h4>
+          <p>Administração de recursos e ambientes tecnolóogicos, disponibilidade e alta-performance do seu ambinete de Tecnologia da Informação, integração e controle.</p>
         </div>
       </div>
       <div class="col-md-6 mt-4 mt-md-0">
         <div class="icon-box">
           <i class="bi bi-binoculars"></i>
-          <h4><a href="#">Mecanismos de Busca </a></h4>
-          <p>Colocação e destaque de sites nos principais mecanismos de busca do mercados.</p>
+          <h4><a href="#">Marketing Digital e SEO </a></h4>
+          <p>Destaque e colocação de sites nos principais mecanismos de busca do mercados. Campnahas de marketing e divulgação.</p>
         </div>
       </div>
 

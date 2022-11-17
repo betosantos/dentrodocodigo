@@ -64,7 +64,7 @@
 
             <div class="sidebar">
 
-              <h3 class="sidebar-title">Search</h3>
+              <h3 class="sidebar-title">Buscar</h3>
               <div class="sidebar-item search-form">
                 <form action="">
                   <input type="text">
@@ -74,6 +74,7 @@
 
 
               <h3 class="sidebar-title">Categorias </h3>
+              @if($categorias->count() > 0)
               @foreach($categorias as $categoria)
               <div class="sidebar-item categories" style="margin-bottom:30px; height:160px;">
                 <ul>
@@ -81,8 +82,11 @@
                 </ul>
               </div><!-- End sidebar categories-->
               @endforeach
+              @else
+              <p style="margin-bottom: 25px;"> Não Há Categorias Cadastradas</p>
+              @endif
 
-              <h3 class="sidebar-title">Recent Posts</h3>
+              <h3 class="sidebar-title">Posts Recentes</h3>
               <div class="sidebar-item recent-posts">
                 <div class="post-item clearfix">
                   <img src="{{ asset('frontpage/assets/img/blog/blog-recent-1.jpg') }}" alt="">

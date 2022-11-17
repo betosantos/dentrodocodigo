@@ -13,3 +13,4 @@ Auth::routes();
 
 Route::get('/', 'HomepageController@index')->name('homepage');
 Route::get('blog', 'HomepageController@blog')->name('blog');
+Route::get('servicos', 'HomepageController@servicos')->name('servicos');

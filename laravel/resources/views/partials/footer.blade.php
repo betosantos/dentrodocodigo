@@ -49,7 +49,7 @@
 
         <div class="col-lg-4 col-md-6 footer-newsletter">
           <h4>Receba Novidades </h4>
-          <p>Quer ficar por dentro de todas as novidades da área de Tecnologia, cadastre seu e-mail gratuitamente e receba novidades.</p>
+          <p>Fique por dentro de todas as novidades na área de Tecnologia, cadastre <b>gratuitamente</b> seu e-mail e receba todas as novidades.</p>
           <form action="" method="post">
             <input type="email" name="email"><input type="submit" value="Cadastre">
           </form>
